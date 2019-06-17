@@ -1,0 +1,27 @@
+@import "./Colors.scss";
+.sidebar {
+  display: flex;
+
+  .categories {
+    height: 40vh;
+    width: 50vw;
+    background-color: $secondaryColor;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  .hide-icon {
+    width: 10vw;
+    background-color: $secondaryColor;
+    display: flex;
+    align-items: center;
+    position: relative;
+    img {
+      height: 40px;
+      position: absolute;
+      right: 0;
+      transform: translate(-30%, -50%);
+    }
+  }
+}

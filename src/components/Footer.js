@@ -25,7 +25,7 @@ function Footer() {
           <div className="subscribe">Subscribe</div>
         </div>
       </div>
-      <div className="categories">
+      <div className="menu">
         <ul>
           <li>
             <a href="">a</a>
