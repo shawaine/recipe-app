@@ -13,7 +13,7 @@ function Header() {
         </div>
         <div className="bag">
           <h3>Your bag</h3>
-          <img src={require("../icon/icons-bag.png")} alt="bag" />
+          <img src={require("../icons/icons-bag.png")} alt="bag" />
         </div>
       </div>
       <div className="lower-row">
@@ -24,7 +24,7 @@ function Header() {
         </div>
         <div className="burger">
           <img
-            src={require("../icon/controls-burger-white.png")}
+            src={require("../icons/controls-burger-white.png")}
             alt="burger"
           />
         </div>
@@ -33,29 +33,26 @@ function Header() {
         <div className="menu">
           <ul>
             <li>
-              {" "}
-              <a href="">a</a>{" "}
+              <a href="">a</a>
             </li>
             <li>
-              {" "}
-              <a href="">b</a>{" "}
+              <a href="">b</a>
             </li>
             <li>
-              {" "}
-              <a href="">c</a>{" "}
+              <a href="">c</a>
             </li>
           </ul>
         </div>
         <div className="search-field">
           <img
             className="search"
-            src={require("../icon/icons-search-black.png")}
+            src={require("../icons/icons-search-black.png")}
             alt="search"
           />
           <input type="text" maxLength="25" placeholder="search" />
           <img
             className="clear"
-            src={require("../icon/icons-close-small-black.png")}
+            src={require("../icons/icons-close-small-black.png")}
             alt="clear"
           />
         </div>
