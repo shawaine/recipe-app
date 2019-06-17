@@ -1,0 +1,66 @@
+@import "./Colors.scss";
+
+section {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  .register {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    .background {
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(5px);
+    }
+    .field {
+      height: 70vh;
+      width: 80%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 0.7em;
+      background: whitesmoke;
+      .controls {
+        height: 100%;
+        width: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          display: inline-block;
+          height: 7vh;
+          cursor: pointer;
+        }
+        h1 {
+          color: $primaryColor;
+          font-size: calc(1.2em + 1.6vw);
+        }
+        p {
+          color: rgb(73, 73, 73);
+          font-size: calc(0.5em + 1.3vw);
+          a {
+            text-decoration: none;
+            color: rgb(0, 118, 253);
+          }
+        }
+        input {
+          border: none;
+          outline: none;
+          border-bottom: 1px solid rgb(46, 46, 46);
+          background: whitesmoke;
+          font-size: calc(0.5em + 1.6vw);
+        }
+      }
+    }
+  }
+}
