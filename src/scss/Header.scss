@@ -63,20 +63,7 @@ header {
   max-height: 15vh;
   padding: 0 3vw 0 3vw;
   background-color: $secondaryColor;
-  .menu {
-    width: 100%;
-    ul {
-      display: flex;
-      justify-content: space-evenly;
-      li {
-        list-style: none;
-        a {
-          text-decoration: none;
-          color: white;
-        }
-      }
-    }
-  }
+
   .search-field {
     width: auto;
     background-color: white;

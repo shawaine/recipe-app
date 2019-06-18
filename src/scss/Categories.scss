@@ -1,27 +1,20 @@
-@import "./Colors.scss";
-.sidebar {
-  display: flex;
-
-  .categories {
-    height: 40vh;
-    width: 50vw;
-    background-color: $secondaryColor;
+.categories-list {
+  height: 100%;
+  width: 100%;
+  ul {
+    padding-top: 2vh;
+    height: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    color: white;
-  }
-  .hide-icon {
-    width: 10vw;
-    background-color: $secondaryColor;
-    display: flex;
-    align-items: center;
-    position: relative;
-    img {
-      height: 40px;
-      position: absolute;
-      right: 0;
-      transform: translate(-30%, -50%);
+    li {
+      list-style: none;
+      a {
+        color: white;
+        text-decoration: none;
+      }
     }
   }
 }

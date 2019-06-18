@@ -1,5 +1,6 @@
 import React from "react";
 import "../scss/Header.scss";
+import Departments from "./Departments";
 
 function Header() {
   return (
@@ -30,19 +31,7 @@ function Header() {
         </div>
       </div>
       <div className="menu-row">
-        <div className="menu">
-          <ul>
-            <li>
-              <a href="">a</a>
-            </li>
-            <li>
-              <a href="">b</a>
-            </li>
-            <li>
-              <a href="">c</a>
-            </li>
-          </ul>
-        </div>
+        <Departments />
         <div className="search-field">
           <img
             className="search"

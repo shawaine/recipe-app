@@ -1,5 +1,6 @@
 import React from "react";
 import "../scss/Footer.scss";
+import Departments from "./Departments";
 
 function Footer() {
   return (
@@ -26,17 +27,7 @@ function Footer() {
         </div>
       </div>
       <div className="menu">
-        <ul>
-          <li>
-            <a href="">a</a>
-          </li>
-          <li>
-            <a href="">b</a>
-          </li>
-          <li>
-            <a href="">c</a>
-          </li>
-        </ul>
+        <Departments />
       </div>
       <div className="social-media">
         <img
