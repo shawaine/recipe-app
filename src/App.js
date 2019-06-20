@@ -13,9 +13,12 @@ function App() {
       {/* <User type={"login"} /> */}
       <Header />
       <ProductProvider>
-        <ProductList />
+        <div className="home">
+          {/* <Sidebar /> */}
+          <ProductList />
+        </div>
       </ProductProvider>
-      <Sidebar />
+
       <Footer />
     </div>
   );

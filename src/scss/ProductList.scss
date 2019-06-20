@@ -1,4 +1,6 @@
 .product-list {
+  width: 100vw;
+  z-index: -2;
   display: flex;
   flex-wrap: wrap;
 }

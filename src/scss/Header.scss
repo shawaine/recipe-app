@@ -1,8 +1,9 @@
 @import "./Colors.scss";
 
 header {
-  height: auto;
-  width: 100%;
+  position: relative;
+  z-index: 99;
+  width: 100vw;
 }
 
 .highlight {
@@ -49,11 +50,13 @@ header {
       display: block;
       height: 50px;
       width: auto;
+      border: 1px solid white;
     }
   }
 }
 
 .menu-row {
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -63,9 +66,11 @@ header {
   max-height: 15vh;
   padding: 0 3vw 0 3vw;
   background-color: $secondaryColor;
-
+  position: absolute;
+  transform: translateY(-100%);
+  z-index: -1;
+  transition: transform 0.2s ease-out;
   .search-field {
-    width: auto;
     background-color: white;
     border-radius: 1em;
     display: flex;
@@ -86,6 +91,9 @@ header {
       outline: none;
     }
   }
+}
+.show-menu {
+  transform: translateY(0);
 }
 // @media screen and (max-width: 769px) {
 //   .menu,

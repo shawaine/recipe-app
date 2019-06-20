@@ -9,7 +9,7 @@ function ProductList() {
     <div className="product-list">
       {products.map(product => (
         <Item
-          key={product.department_id}
+          key={product.product_id}
           name={product.name}
           price={product.price}
           discounted_price={product.discounted_price}

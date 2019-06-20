@@ -1,10 +1,11 @@
 .product {
-  border: 2px black solid;
+  z-index: -2;
+  border-bottom: 2px black solid;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex: 1 50%;
+  flex: 1 210px;
   text-align: center;
   .title {
     font-size: calc(0.8em + 1vh);

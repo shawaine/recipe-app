@@ -1,10 +1,10 @@
 @import "./Colors.scss";
 .sidebar {
   display: flex;
-  position: fixed;
   top: 0;
   height: 100vh;
   z-index: 99;
+  position: absolute;
   .categories {
     width: 50vw;
     background-color: $secondaryColor;

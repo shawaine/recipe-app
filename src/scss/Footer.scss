@@ -2,7 +2,7 @@
 
 footer {
   height: auto;
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
@@ -12,7 +12,7 @@ footer {
   background-color: $secondaryColor;
   height: auto;
   width: 100%;
-  padding: 1.5vh 1vw 1.5vh 1vw;
+  padding: 1.5vh 0 1.5vh 1vw;
 }
 
 .newsletter {
@@ -24,18 +24,17 @@ footer {
   align-content: flex-end;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 2vh 1vw 1.5vh 1vw;
+  padding: 2vh 2vw 1.5vh 1vw;
+  text-align: center;
 }
 .updates {
-  font-size: calc(0.6em + 1vw);
-  margin: auto;
+  font-size: calc(0.55em + 1vw);
   transform: translateY(-6%);
 }
 .email-area {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 2vw;
 }
 .email-field {
   background-color: white;
@@ -66,7 +65,7 @@ footer {
   padding: 0.2em 0.5em 0.3em 0.5em;
   margin-left: 1vw;
   border-radius: 6px;
-  font-size: calc(0.65em + 1vw);
+  font-size: calc(0.5em + 1vw);
   color: white;
   cursor: pointer;
 }
